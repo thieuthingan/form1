@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <tr>
+        <th><b>PHIẾU KHẢO SÁT</b></th>
+    </tr>
+    <form>
+        <table border="1">
+            <tr>
+                <td>Họ tên</td>
+                <td><input type="text" name="hoten"></td>
+            </tr>
+            <tr>
+                <td>Màu yêu thích</td>
+                <td><input type="color" name="mau"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td><input type="text" name="ngaysinh" placeholder="dd/mm/yyyy"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Chuyên ngành</td>
+                <td><input type="text" name="nganhnghe"></td>
+            </tr>
+            <tr>
+                <td>Website</td>
+                <td><input type="url" name="website"></td>
+            </tr>
+            <tr>
+                <td>Con số yêu thích (1-9)</td>
+                <td><input type="number" name="conso" min="1" max="9"></td>
+            </tr>
+            <tr>
+                <td>Thu nhập</td>
+                <td>
+                    <input type="range" name="thunhap" min="100" max="1000"> 100 (USD) - 1000 (USD)
+                    <br>
+                    * tỉ giá <input type="text" name="tigia" value="22500"> = <input type="text" name="quydoi">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Gửi đi">
+                    <input type="reset" value="Xóa hết">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
